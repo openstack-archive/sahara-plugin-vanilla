@@ -43,13 +43,14 @@ For cluster provisioning, prepared images should be used.
      - Hive 0.11.0, Oozie 4.2.0
 
 For more information about building image, refer to
-:doc:`building-guest-images`.
+:sahara-doc:`Sahara documentation <user/building-guest-images.html>`.
 
 Vanilla plugin requires an image to be tagged in Sahara Image Registry with
 two tags: 'vanilla' and '<hadoop version>' (e.g. '2.7.1').
 
 The image requires a username. For more information, refer to the
-:doc:`registering-image` section.
+:sahara-doc:`registering image <user/registering-image.html>` section
+of the Sahara documentation.
 
 Build settings
 ~~~~~~~~~~~~~~
@@ -67,7 +68,8 @@ before starting the build command:
 Vanilla Plugin Requirements
 ---------------------------
 
-The image building tools described in :ref:`building-guest-images-label`
+The image building tools described in
+:sahara-doc:`Building guest images <user/building-guest-images.html>`
 add the required software to the image and their usage is strongly suggested.
 Nevertheless, here are listed the software that should be pre-loaded
 on the guest image so that it can be used to create Vanilla clusters:
@@ -77,8 +79,9 @@ on the guest image so that it can be used to create Vanilla clusters:
 * Apache Hadoop installed
 * 'hadoop' user created
 
-See :doc:`hadoop-swift` for information on using Swift with your sahara cluster
-(for EDP support Swift integration is currently required).
+See :sahara-doc:`Swift Integration <user/hadoop-swift.html>` for information
+on using Swift with your sahara cluster (for EDP support Swift integration
+is currently required).
 
 To support EDP, the following components must also be installed on the guest:
 
