@@ -1,0 +1,98 @@
+# Surit Aryal <aryalsurit@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-vanilla VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2019-07-23 14:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-08-02 09:08+0000\n"
+"Last-Translator: Surit Aryal <aryalsurit@gmail.com>\n"
+"Language-Team: Nepali\n"
+"Language: ne\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "0 or 1"
+msgstr "० वा १"
+
+#, python-format
+msgid "Await %s start up"
+msgstr "पर्खिरहेका %s शुरू"
+
+msgid "Configure instances"
+msgstr "instances कन्फिगर गर्नुहोस्"
+
+msgid "Configure topology data"
+msgstr "टोपोलजी डाटा कन्फिगर गर्नुहोस्"
+
+#, python-format
+msgid "Decommission %s"
+msgstr "Decommission %s"
+
+msgid "Number of datanodes must be not less than dfs.replication."
+msgstr "datanodes संख्या dfs.replication भन्दा कम हुनुपर्छ।"
+
+msgid "Number of zookeeper nodesshould be in odd."
+msgstr "zookeeper नोडहरूको संख्या बिजोरमा हुनुपर्दछ।"
+
+#, python-format
+msgid "Refresh %s nodes"
+msgstr "%s नोडहरू ताजा गर्नुहोस्"
+
+msgid "Spark {base} or higher required to run {type} jobs"
+msgstr "Spark {base} or higher required to run {type} jobs"
+
+msgid ""
+"The Apache Vanilla plugin provides the ability to launch upstream Vanilla "
+"Apache Hadoop cluster without any management consoles. It can also deploy "
+"the Oozie component."
+msgstr ""
+"Apache Vanilla प्लगइनले कुनै व्यवस्थापन कन्सोल बिना अपस्ट्रिम  Vanilla Apache Hadoop "
+"क्लस्टर सुरूवात गर्न क्षमता प्रदान गर्दछ। यसले Oozie कम्पोनेन्ट पनि डिप्लोय गर्न सक्दछ।"
+
+#, python-format
+msgid "Unable to get parameter '%(name)s' from service %(service)s"
+msgstr "सेवा %(service)s बाट प्यारामिटर  '%(name)s'  प्राप्त गर्न असमर्थ"
+
+msgid "Update include files"
+msgstr "अपडेटमा फाईलहरू समावेश छन्"
+
+msgid ""
+"Vanilla plugin cannot scale cluster because it must keep zookeeper service "
+"in odd."
+msgstr ""
+"Vanilla pluginले क्लस्टर मापन गर्न सक्दैन किनकि यसले जूटरकीपर सेवा बिजोर राख्नु पर्छ।"
+
+msgid ""
+"Vanilla plugin cannot scale node group with processes which have no master-"
+"processes run in cluster"
+msgstr ""
+"Vanilla pluginले नोड समूहलाई प्रक्रियाहरूसँग मापन गर्न सक्दैन जुन मास्टर-प्रक्रियाहरू "
+"क्लस्टरमा चल्दैनन्"
+
+#, python-format
+msgid "Vanilla plugin cannot scale nodegroup with processes: %s"
+msgstr "Vanilla plugin प्रक्रियासँग नोड ग्रुप मापन गर्न सक्दैन: %s"
+
+#, python-format
+msgid ""
+"Vanilla plugin cannot shrink cluster because it would be not enough nodes "
+"for replicas (replication factor is %s)"
+msgstr ""
+"Vanilla plugin क्लस्टर सिको गर्न सक्दैन किनकि यो प्रतिकृतिको लागि पर्याप्त नोडहरू हुनेछैन "
+"(प्रतिकृति कारक %s हो)"
+
+msgid "Wait for decommissioning"
+msgstr "डिकमिमिशनको लागि कुर्नुहोस्"
+
+#, python-format
+msgid "Waiting on %s datanodes to start up"
+msgstr "सुरू गर्न %s डाटाटोड पर्खँदै"
+
+msgid "Waiting on 1 datanodes to start up"
+msgstr "सुरू गर्न १ डेटानोडमा पर्खँदै"
+
+msgid "odd"
+msgstr "बिजोर"
