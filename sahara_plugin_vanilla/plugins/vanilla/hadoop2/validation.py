@@ -85,8 +85,8 @@ def validate_cluster_creating(pctx, cluster):
     zk_count = _get_inst_count(cluster, 'zookeeper')
     if zk_count > 0 and (zk_count % 2) != 1:
         raise ex.InvalidComponentCountException(
-            'zookeeper', _('odd'), zk_count, _('Number of zookeeper nodes'
-                                               'should be in odd.'))
+            'zookeeper', _('odd'), zk_count, _('Number of zookeeper nodes '
+                                               'should be odd.'))
 
 
 def validate_additional_ng_scaling(cluster, additional):
