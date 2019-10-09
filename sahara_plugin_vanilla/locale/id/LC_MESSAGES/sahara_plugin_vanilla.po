@@ -1,0 +1,101 @@
+# suhartono <cloudsuhartono@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-vanilla VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2019-09-30 09:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-10-06 03:37+0000\n"
+"Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "0 or 1"
+msgstr "0 atau 1"
+
+#, python-format
+msgid "Await %s start up"
+msgstr "Tunggu %s start up (mulai)"
+
+msgid "Configure instances"
+msgstr "Konfigurasikan instance"
+
+msgid "Configure topology data"
+msgstr "Konfigurasikan data topologi"
+
+#, python-format
+msgid "Decommission %s"
+msgstr "Decommission %s"
+
+msgid "Number of datanodes must be not less than dfs.replication."
+msgstr "Jumlah datanoda harus tidak kurang dari dfs.replication."
+
+msgid "Number of zookeeper nodes should be odd."
+msgstr "Jumlah node zookeeper harus ganjil."
+
+#, python-format
+msgid "Refresh %s nodes"
+msgstr "Refresh %s nodes"
+
+msgid "Spark {base} or higher required to run {type} jobs"
+msgstr ""
+"Spark {base} atau lebih tinggi diperlukan untuk menjalankan jobs {type}"
+
+msgid ""
+"The Apache Vanilla plugin provides the ability to launch upstream Vanilla "
+"Apache Hadoop cluster without any management consoles. It can also deploy "
+"the Oozie component."
+msgstr ""
+"Plugin Apache Vanilla menyediakan kemampuan untuk meluncurkan cluster "
+"Vanilla Apache Hadoop hulu tanpa konsol manajemen. Itu juga dapat "
+"menggunakan komponen Oozie."
+
+#, python-format
+msgid "Unable to get parameter '%(name)s' from service %(service)s"
+msgstr "Tidak dapat memperoleh parameter '%(name)s' dari layanan %(service)s"
+
+msgid "Update include files"
+msgstr "Perbarui menyertakan file"
+
+msgid ""
+"Vanilla plugin cannot scale cluster because it must keep zookeeper service "
+"in odd."
+msgstr ""
+"Plugin vanilla tidak dapat mengukur cluster karena harus menjaga layanan "
+"zookeeper dalam keadaan odd."
+
+msgid ""
+"Vanilla plugin cannot scale node group with processes which have no master-"
+"processes run in cluster"
+msgstr ""
+"Plugin vanilla tidak dapat menskala node group dengan proses yang tidak "
+"memiliki proses master berjalan di cluster"
+
+#, python-format
+msgid "Vanilla plugin cannot scale nodegroup with processes: %s"
+msgstr "Plugin vanilla tidak dapat menskala nodegroup dengan proses: %s"
+
+#, python-format
+msgid ""
+"Vanilla plugin cannot shrink cluster because it would be not enough nodes "
+"for replicas (replication factor is %s)"
+msgstr ""
+"Plugin vanilla tidak dapat mengecilkan cluster karena tidak akan cukup node "
+"untuk replika (faktor replikasi adalah %s)"
+
+msgid "Wait for decommissioning"
+msgstr "Tunggu pembongkaran (decommissioning)"
+
+#, python-format
+msgid "Waiting on %s datanodes to start up"
+msgstr "Menunggu datanodes %s untuk memulai"
+
+msgid "Waiting on 1 datanodes to start up"
+msgstr "Menunggu 1 datanode untuk memulai"
+
+msgid "odd"
+msgstr "ganjil"
