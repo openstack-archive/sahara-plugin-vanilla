@@ -229,6 +229,7 @@ def _init_general_configs():
         configs.append(ENABLE_DATA_LOCALITY)
     return configs
 
+
 PLUGIN_GENERAL_CONFIGS = _init_general_configs()
 
 

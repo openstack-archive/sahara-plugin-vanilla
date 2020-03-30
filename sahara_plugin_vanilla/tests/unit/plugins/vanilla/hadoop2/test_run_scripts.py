@@ -25,6 +25,7 @@ def mock_event_wrapper(*args, **kwargs):
         return decorated_function
     return decorator
 
+
 from sahara.plugins import edp
 from sahara.plugins import utils as pu
 mock.patch('sahara.plugins.utils.event_wrapper', mock_event_wrapper).start()
@@ -254,8 +255,8 @@ class RunScriptsTest(base.SaharaTestCase):
         self.assertEqual(rs._check_datanodes_count(self.r, 1), True)
         self.r.execute_command.assert_called_once_with(
             'sudo su -lc "hdfs dfsadmin -report" hadoop | '
-            'grep \'Live datanodes\|Datanodes available:\' | '
-            'grep -o \'[0-9]\+\' | head -n 1')
+            r'grep \'Live datanodes\|Datanodes available:\' | '
+            r'grep -o \'[0-9]\+\' | head -n 1')
 
     def test_hive_create_warehouse_dir(self):
         rs._hive_create_warehouse_dir(self.r)
