@@ -14,7 +14,7 @@
 # limitations under the License.
 
 from functools import wraps
-import mock
+from unittest import mock
 
 
 def mock_event_wrapper(*args, **kwargs):

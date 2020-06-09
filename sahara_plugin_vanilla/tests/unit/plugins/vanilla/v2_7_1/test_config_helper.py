@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import mock
+from unittest import mock
 
 from sahara.plugins import provisioning as p
 from sahara_plugin_vanilla.plugins.vanilla.v2_7_1 import config_helper

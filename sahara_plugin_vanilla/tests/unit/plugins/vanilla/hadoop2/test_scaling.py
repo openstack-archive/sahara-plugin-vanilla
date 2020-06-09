@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import mock
+from unittest import mock
 
 from sahara_plugin_vanilla.i18n import _
 from sahara_plugin_vanilla.plugins.vanilla.hadoop2 import config_helper
