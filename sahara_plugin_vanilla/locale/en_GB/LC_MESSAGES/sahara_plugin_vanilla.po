@@ -1,0 +1,100 @@
+# Andi Chandler <andi@gowling.com>, 2020. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-vanilla VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2020-10-07 22:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-11-03 10:20+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"Language-Team: English (United Kingdom)\n"
+"Language: en_GB\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "0 or 1"
+msgstr "0 or 1"
+
+#, python-format
+msgid "Await %s start up"
+msgstr "Await %s start up"
+
+msgid "Configure instances"
+msgstr "Configure instances"
+
+msgid "Configure topology data"
+msgstr "Configure topology data"
+
+#, python-format
+msgid "Decommission %s"
+msgstr "Decommission %s"
+
+msgid "Number of datanodes must be not less than dfs.replication."
+msgstr "Number of datanodes must be not less than dfs.replication."
+
+msgid "Number of zookeeper nodes should be odd."
+msgstr "Number of Zookeeper nodes should be odd."
+
+#, python-format
+msgid "Refresh %s nodes"
+msgstr "Refresh %s nodes"
+
+msgid "Spark {base} or higher required to run {type} jobs"
+msgstr "Spark {base} or higher required to run {type} jobs"
+
+msgid ""
+"The Apache Vanilla plugin provides the ability to launch upstream Vanilla "
+"Apache Hadoop cluster without any management consoles. It can also deploy "
+"the Oozie component."
+msgstr ""
+"The Apache Vanilla plugin provides the ability to launch upstream Vanilla "
+"Apache Hadoop cluster without any management consoles. It can also deploy "
+"the Oozie component."
+
+#, python-format
+msgid "Unable to get parameter '%(name)s' from service %(service)s"
+msgstr "Unable to get parameter '%(name)s' from service %(service)s"
+
+msgid "Update include files"
+msgstr "Update include files"
+
+msgid ""
+"Vanilla plugin cannot scale cluster because it must keep zookeeper service "
+"in odd."
+msgstr ""
+"Vanilla plugin cannot scale cluster because it must keep Zookeeper service "
+"in odd."
+
+msgid ""
+"Vanilla plugin cannot scale node group with processes which have no master-"
+"processes run in cluster"
+msgstr ""
+"Vanilla plugin cannot scale node group with processes which have no master-"
+"processes run in cluster"
+
+#, python-format
+msgid "Vanilla plugin cannot scale nodegroup with processes: %s"
+msgstr "Vanilla plugin cannot scale nodegroup with processes: %s"
+
+#, python-format
+msgid ""
+"Vanilla plugin cannot shrink cluster because it would be not enough nodes "
+"for replicas (replication factor is %s)"
+msgstr ""
+"Vanilla plugin cannot shrink cluster because it would be not enough nodes "
+"for replicas (replication factor is %s)"
+
+msgid "Wait for decommissioning"
+msgstr "Wait for decommissioning"
+
+#, python-format
+msgid "Waiting on %s datanodes to start up"
+msgstr "Waiting on %s datanodes to start up"
+
+msgid "Waiting on 1 datanodes to start up"
+msgstr "Waiting on 1 datanodes to start up"
+
+msgid "odd"
+msgstr "odd"
